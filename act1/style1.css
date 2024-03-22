@@ -1,0 +1,140 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(-45deg, #753b29, #962751, #156683, #189174);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;  
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+ .logo{
+    margin-left: 50px;
+    font-weight: bolder;
+
+ }
+
+
+nav{
+    padding-top: 5px;
+    background: linear-gradient(-45deg, #753b29, #962751, #156683, #189174);
+	background-size: 400% 400%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    top: 0px;
+    position: fixed;
+    list-style-type: none;
+   
+   height: 40px;
+  color: orange;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a{
+    margin-right: 80px;
+    margin-left: 40px;
+    color: orange;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: white;
+    background-color: orange;
+    box-shadow: 0px 0px 5px white,
+                0px 0px 10px white,
+                0px 0px 10px white,
+                0px 0px 156px white;
+}
+
+
+.gif1{
+    margin-top: 120px    ;
+    text-align: center;
+    height: 1000px;
+    width: 100%;
+    
+    
+}
+
+
+
+.prog{
+    text-align: center;
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    margin: 20px;
+   
+}
+
+
+.waya{
+    background: rgb(5, 6, 45);
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+}
+.art1{
+    
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.box{
+    margin-top: 50px;
+    max-width: 100vh;
+   
+}
+
+.pic1{
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+}
